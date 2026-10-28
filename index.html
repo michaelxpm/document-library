@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse and download public documents.">
+  <title>Public Document Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container"><span class="eyebrow">OPEN RESOURCES</span><h1>Public Document Library</h1><p>Browse, read and download documents.</p></div></header>
+  <main class="container">
+    <section class="controls" aria-label="Document filters">
+      <label for="search">Search documents</label><input id="search" type="search" placeholder="Search titles or descriptions..." autocomplete="off">
+      <div class="filter-row"><div><label for="category">Category</label><select id="category"><option value="all">All categories</option></select></div><div><label for="filetype">File type</label><select id="filetype"><option value="all">All types</option></select></div></div>
+    </section>
+    <div class="results-header"><h2>Documents</h2><span id="count" aria-live="polite"></span></div>
+    <p id="status" role="status" aria-live="polite">Loading documents...</p>
+    <div id="document-list" class="document-grid"></div>
+    <section class="help"><h2>About this library</h2><p>Documents are public and hosted with this website. To publish a new file, the owner uploads it to the GitHub repository and adds an entry to <code>documents.json</code>.</p></section>
+  </main>
+  <footer><div class="container">Public Document Library · Built with HTML, CSS and JavaScript</div></footer>
+</body>
+</html>

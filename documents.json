@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Welcome Guide",
+    "description": "A sample PDF showing how to view and download a public document.",
+    "category": "Guides",
+    "type": "pdf",
+    "file": "files/sample-guide.pdf"
+  }
+]
