@@ -1,9 +1,31 @@
+
 [
   {
-    "title": "Welcome Guide",
-    "description": "A sample PDF showing how to view and download a public document.",
-    "category": "Guides",
+    "title": "AL Business Coursebook (4th Edition)",
+    "description": "Business studies coursebook.",
+    "category": "Education",
     "type": "pdf",
-    "file": "files/sample-guide.pdf"
+    "file": "files/AL Business Coursebook 4th edition.pdf"
+  },
+  {
+    "title": "The Problems of Philosophy",
+    "description": "A philosophical work by Bertrand Russell.",
+    "category": "Philosophy",
+    "type": "pdf",
+    "file": "files/哲学问题-罗素The Problems of Philosophy - Bertrand Russell.pdf"
+  },
+  {
+    "title": "老实人启蒙",
+    "description": "Chinese-language reading material.",
+    "category": "Philosophy",
+    "type": "pdf",
+    "file": "files/老实人启蒙.pdf"
+  },
+  {
+    "title": "WEF Global Risks Report 2026",
+    "description": "World Economic Forum report on global risks.",
+    "category": "Reports",
+    "type": "pdf",
+    "file": "files/WEF_Global_Risks_Report_2026.pdf"
   }
 ]
