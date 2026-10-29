@@ -10,10 +10,29 @@ let documents = [];
 
 // Only permit local, relative file paths under files/.
 function safeFilePath(path) {
-  if (typeof path !== "string" || !/^files\/[a-zA-Z0-9_./ -]+$/.test(path)) return null;
+  if (typeof path !== "string") return null;
+
   const parts = path.split("/");
-  if (parts.some(part => part === ".." || part === "." || part === "")) return null;
-  return parts.map(encodeURIComponent).join("/").replace(/%2F/g, "/");
+
+  // Only allow files inside the files/ directory
+  if (parts[0] !== "files" || parts.length < 2) {
+    return null;
+  }
+
+  // Prevent empty segments and directory traversal
+  if (parts.some(part =>
+    part === "" || part === "." || part === ".."
+  )) {
+    return null;
+  }
+
+  // Prevent query strings, fragments and backslashes
+  if (/[?#\\\u0000-\u001F\u007F]/.test(path)) {
+    return null;
+  }
+
+  // Encode Chinese characters, spaces and punctuation
+  return parts.map(encodeURIComponent).join("/");
 }
 
 function makeOption(value) {
