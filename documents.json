@@ -1,11 +1,18 @@
 
 [
   {
-    "title": "AL Business Coursebook (4th Edition)",
-    "description": "Business studies coursebook.",
-    "category": "Education",
+    "title": "WEF Jobs of Tomorrow",
+    "description": "World Economic Forum report on technology and the future of work.",
+    "category": "Reports",
     "type": "pdf",
-    "file": "files/AL Business Coursebook 4th edition.pdf"
+    "file": "files/WEF_Jobs_of_Tomorrow_Technology_and_the_Future_of_the_Worlds_Largest_Workforces_2025.pdf"
+  },
+  {
+    "title": "Sample Guide",
+    "description": "Sample document for testing the website.",
+    "category": "Guides",
+    "type": "pdf",
+    "file": "files/sample-guide.pdf"
   },
   {
     "title": "The Problems of Philosophy",
@@ -15,17 +22,11 @@
     "file": "files/哲学问题-罗素The Problems of Philosophy - Bertrand Russell.pdf"
   },
   {
-    "title": "老实人启蒙",
-    "description": "Chinese-language reading material.",
-    "category": "Philosophy",
+    "title": "富有的习惯",
+    "description": "一本关于财富积累与个人习惯的中文读物。",
+    "category": "Books",
     "type": "pdf",
-    "file": "files/老实人启蒙.pdf"
-  },
-  {
-    "title": "WEF Global Risks Report 2026",
-    "description": "World Economic Forum report on global risks.",
-    "category": "Reports",
-    "type": "pdf",
-    "file": "files/WEF_Global_Risks_Report_2026.pdf"
+    "file": "files/富有的习惯（揭秘富人与穷人的根本差距！27条“富有的习惯”，决定你一生财富.pdf"
   }
 ]
+
